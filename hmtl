@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japan-Themed Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Noto+Serif+JP&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image: url('https://images.unsplash.com/photo-1552566626-52a5f2f09c1a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fGphcGFufGVufDB8fHx8MTY4MTE5NzEyNw&ixlib=rb-1.2.1&q=80&w=1080');
+            background-size: cover;
+            font-family: 'Noto Serif JP', serif;
+            color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+        .header {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 15px;
+        }
+        .content {
+            background: rgba(255, 255, 255, 0.6);
+            margin-top: 20px;
+            padding: 30px;
+            border-radius: 15px;
+        }
+        h1 {
+            font-family: 'Kaushan Script', cursive;
+            font-size: 3rem;
+            color: #d4145a;
+        }
+        p {
+            font-size: 1.2rem;
+        }
+        a {
+            text-decoration: none;
+            color: #d4145a;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to Japan</h1>
+        <p>Discover the beauty, tradition, and culture of Japan.</p>
+    </div>
+
+    <div class="content">
+        <h2>Cherry Blossoms and More</h2>
+        <p>Explore the magical cherry blossom season, bustling cities, and serene temples that Japan offers.</p>
+        <a href="#">Learn more about Japanese Culture</a>
+    </div>
+</body>
+</html>
